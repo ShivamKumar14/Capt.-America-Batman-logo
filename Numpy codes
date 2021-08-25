@@ -1,0 +1,26 @@
+#question1.a
+import numpy as np
+lst=[1,2.0,3]
+arr= np.array(lst)
+print("List=", lst)
+print("Numpy array=", arr)
+brr=np.array_str(arr)
+print ("The string representation of given array : ", brr)
+print(type(brr))
+
+#question1.b
+import numpy 
+arr1 = [8,9,7,6], [4,3,2,1]
+arr1= numpy.array(arr1)
+print(arr1)
+print("type of arr1",arr1.dtype )
+
+#question1.c
+print(arr1.shape)
+
+#question1.d
+from numpy import random
+
+x=random.randint(100, size=(10))
+
+print(x)
